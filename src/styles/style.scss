@@ -1,0 +1,12 @@
+.block{
+   padding:10px;
+   display:flex;
+   flex-direction: row;
+    
+    .block__left{
+        padding: 20px;
+        .block__image{
+            padding: 30px;
+        }
+    }
+}

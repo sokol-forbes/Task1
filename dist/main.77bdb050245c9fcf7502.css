@@ -1,0 +1,12 @@
+/*!**************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles/style.scss ***!
+  \**************************************************************************************************************/
+.block {
+  padding: 10px;
+  display: flex;
+  flex-direction: row; }
+  .block .block__left {
+    padding: 20px; }
+    .block .block__left .block__image {
+      padding: 30px; }
+
