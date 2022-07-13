@@ -1,0 +1,47 @@
+/*!**************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles/style.scss ***!
+  \**************************************************************************************************************/
+body {
+  padding: 0;
+  margin: 0; }
+
+.block {
+  padding: 40px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 2px 0; }
+  .block .block__left {
+    height: 100%;
+    padding: 20px;
+    width: 70%; }
+    .block .block__left .block__image {
+      padding: 30px; }
+    .block .block__left .block__left__article {
+      padding: 10px; }
+      .block .block__left .block__left__article .article__header {
+        font-size: 40px;
+        font-family: 'PT Mono', monospace;
+        margin: 10px 0; }
+      .block .block__left .block__left__article .article__info {
+        margin: 10px 0; }
+      .block .block__left .block__left__article .article__body {
+        font-size: 15px;
+        font-family: 'PT Mono', monospace;
+        margin: 10px 0; }
+  .block .block__right {
+    width: 20%; }
+
+.article__header {
+  font-size: 40px;
+  font-family: 'PT Mono', monospace;
+  margin: 10px 0; }
+
+.article__info {
+  margin: 10px 0; }
+
+.article__body {
+  font-size: 15px;
+  font-family: 'PT Mono', monospace;
+  margin: 20px 0 10px; }
+
